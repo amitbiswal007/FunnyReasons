@@ -1,7 +1,71 @@
-body{
-    background-color: antiquewhite;
+body {
+    background-color: #26c2c7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(#dbff10, #dd2c7e);
+    height: 95vh
 }
-.card{
+
+.heading {
+    font-size: larger;
+    text-align: center;
+}
+
+.container {
+    height: 90vh;
+}
+
+.card {
     background-color: #FFFFFF;
+    padding: 20px;
+    height: 40vh;
+    width: 60vh;
+    margin: auto;
+    box-shadow: 5px 5px;
+    border-radius: 2px;
+}
+.reasonText{
+    font-size: larger;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ecaac9;
+    border-radius: 10px;
+    height: 60%;
+}
+.btn-container {
+    display: flex;
+    justify-content: right;
+}
+
+.btn {
+
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px;
+    font-size: small;
+}
+
+.btn-copy {
+    background-color: bisque;
+}
+
+.btn-new {
+    background-color: rgb(223, 227, 230);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #dd2c7e;
+    scale: 1.1;
+}
+
+.attribution {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: small;
 }
